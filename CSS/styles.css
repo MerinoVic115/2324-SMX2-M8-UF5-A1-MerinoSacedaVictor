@@ -43,7 +43,29 @@ p {
     margin: 5px;
 }
 
-.cabecera {
+ /*{
      height: 600px;
-    background-image: url('../IMG/header_background.jpeg');
+    background-image: url(../IMG/header_background.jpeg);
+}*/
+
+.contenedor {
+    position: relative;
+    text-align: center; /* Para centrar el texto */
 }
+
+.pruebacabecera {
+    width: 100%; /* Ajustar el tamaño de la imagen según sea necesario */
+    height: 600px; /* Mantener la proporción de la imagen */
+}
+
+.textosobreimagen{
+    position: absolute;
+    top: 50%; /* Posición verticalmente centrada */
+    left: 50%; /* Posición horizontalmente centrada */
+    transform: translate(-50%, -50%); /* Centrar el texto exactamente en el centro */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
